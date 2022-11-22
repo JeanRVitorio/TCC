@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorthField</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./Imagens/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!--bg-light  -->
+            <div class="container-fluid">
+                <!--<a class="navbar-brand" href="">NorthField</a>-->
+                <img src="./imagens/PNG Logo horizontal.png" class="navbar-brand logo_imagem">
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Produtos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="masc.html">Masculinas</a></li>
+                                <li><a class="dropdown-item" href="fem.html">Femininas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sobre Nós
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="qmsomos.html">Quem Somos</a></li>
+                                <li><a class="dropdown-item" href="sobrenos.html">Sobre Nossos Produtos</a></li>
+                                <li><a class="dropdown-item" href="trabalhe.html">Trabalhe Conosco</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Minha Conta
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cadastre-se</a></li>
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Imagens/banner1.jpg" class="d-block w-100 imagem_carrosel"
+                            alt="Imagem de um moletom com promoção de 25%">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Aqui um titulo sobre a imagem</h5>
+                            <p>Aqui uma descricao curta sobre a imagem, mas pode ser tirada</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagens/banner2.jpg" class="d-block w-100 imagem_carrosel" alt="TEMPORARIO">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Aqui um titulo sobre a imagem</h5>
+                            <p>Aqui uma descricao curta sobre a imagem, mas pode ser tirada</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagens/banner3.jpg" class="d-block w-100 imagem_carrosel" alt="TEMPORARIO">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Aqui um titulo sobre a imagem</h5>
+                            <p>Aqui uma descricao curta sobre a imagem, mas pode ser tirada</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="titulo">
+
+            <h1 class="text-center fonte_titulo cor_especial pt-5">Um título chamativo sobre a marca </h1>
+            <p class="text-center text-secondary pt-2 pb-5">Uma descrição interessante, sobre os temas do TCC</p>
+        </section>
+
+        <div>
+            <img src="./Imagens/bannermeio.jpg" alt="" class="banner__meio">
+        </div>
+
+        <section id="cards" class=" cartoes container-fluid bg-light">
+            <div class="row justify-content-center">
+
+                <div class="cartoes card borda_cor_especial card_largura col-12 col-md-2 p-0 m-4">
+                    <img src="./Imagens/banner3.jpg" class="card-img-top card_posicao_imagem card_img" alt="TEMPORARIO">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome da Peça</h5>
+                        <p class="card-text">Descrição da peça </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">P M G</li>
+                        <li class="list-group-item">Valor $$$</li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card borda_cor_especial card_largura col-12 col-md-2 p-0 m-4">
+                    <img src="./Imagens/banner3.jpg" class="card-img-top card_posicao_imagem" alt="TEMPORARIO">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome da Peça</h5>
+                        <p class="card-text">Descrição da peça </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">P M G</li>
+                        <li class="list-group-item">Valor $$$</li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card borda_cor_especial card_largura col-12 col-md-2 p-0 m-4">
+                    <img src="./Imagens/banner3.jpg" class="card-img-top card_posicao_imagem" alt="TEMPORARIO">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome da Peça</h5>
+                        <p class="card-text">Descrição da peça </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">P M G</li>
+                        <li class="list-group-item">Valor $$$</li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card borda_cor_especial card_largura col-12 col-md-2 p-0 m-4">
+                    <img src="./Imagens/banner3.jpg" class="card-img-top card_posicao_imagem" alt="TEMPORARIO">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome da Peça</h5>
+                        <p class="card-text">Descrição da peça </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">P M G</li>
+                        <li class="list-group-item">Valor $$$</li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-secondary bg-gradient">
+        <div class="container py-4 py-md-5 px-4 px-md-3">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <img src="./Imagens/PNG Logo 500x500.png" alt="descriçao do logo" class="imagem_logo">
+                        <title>NorthField</title>
+                        <span class="fs-5">NorthField</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2 Dark">Projetado e construído com todo o amor do mundo pela equipe NOME DA MARCA com a
+                            ajuda de nossos INSTRUTORES.</li>
+
+                        <li class="mb-2">FEITO COM A VERSÃO v5.2.2. BOOTSTRAP</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="footer_links" href="index.html">Home</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Produtos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="footer_links" href="masc.html">Masculinas</a></li>
+                        <li class="mb-2"><a class="footer_links" href="fem.html">Femininas</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Sobre Nós</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="footer_links" href="qmsomos.html">Quem Somos</a></li>
+                        <li class="mb-2"><a class="footer_links" href="sobrenos.html">Sobre Nossos
+                                Produtos</a></li>
+                        <li class="mb-2"><a class="footer_links" href="trabalhe.html">Trabalhe Conosco</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Minha Conta</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="footer_links" href="#">Cadastre-se</a></li>
+                        <li class="mb-2"><a class="footer_links" href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="cards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!--
+<img src="Tinta_Whats-removebg-preview.png" width="200px" height="200px"> (47) 98426-5388
+<img src="Tinta_Facebook-removebg-preview.png" width="200px" height="200px"> North Fiel Duty
+<img src="Tinta_Instagram-removebg-preview.png" width="200px" height="200px"> @northfiel_sustentavel
+<img src="Tinta_Twiter-removebg-preview.png" width="200px" height="200px"> #nothfielduty 
+
+    <img href="./Imagens/whatszap.jpg" >(47) 98426-5388</img>
+        <img href="./Imagens/facebook.jpg" >North Fiel Duty</img>
+        <img href="./Imagens/instragram.jpg" >@northfiel_sustentavel</img>
+        <img href="./Imagens/twitter.jpg" >#nothfielduty</img>
+
+          <div class="row">
+          <ul class="payment col-12 col-sm-12 col-md-8">  
+   
+            <li><span><img src="https://assets.jumpseller.com/store/huerti1/themes/431798/pay-visa.png?1635948003" alt="Visa"></span></li>
+            <li><span><img src="https://assets.jumpseller.com/store/huerti1/themes/431798/pay-master.png?1635948003" alt="Mastercard"></span></li>
+            <li><span><img src="https://assets.jumpseller.com/store/huerti1/themes/431798/pay-american.png?1635948003" alt="American Express"></span></li>
+            <li><span><img src="https://assets.jumpseller.com/store/huerti1/themes/431798/pay-paypal.png?1635948003" alt="Paypal"></span></li>    
+                        
+          </ul>
+        </div>
+-->

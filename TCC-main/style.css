@@ -1,0 +1,45 @@
+
+
+.logo_imagem {
+    height:3em;
+}
+
+.imagem_carrosel {
+    margin-top: 4.5em;
+    object-fit: cover;
+    
+    height: 500px;
+}
+
+.banner__meio {
+    height: 25em;
+    width: 100%;
+}
+
+.card_largura {
+    max-width: 18rem;
+}
+
+.borda_cor_especial {
+    border-color: darkred;
+}
+
+.imagem_logo {
+    height: 10em;
+}
+
+.footer_links {
+    text-decoration: none;
+}
+
+.payment {
+    display: flex;
+    list-style-type: none;
+    width: 25px;
+    justify-content: center;
+}
+
+.sobrenos {
+    margin-top: 4.5em;
+    align-content: center;
+}
